@@ -22,15 +22,15 @@ const services = [
 class Services extends Component {
     render() {
         return (
-        <section id="services">
-                <div classNam="container">
-                    <div classNam="row">
-                        <div classNam="col-lg-12 text-center">
-                        <h2 classNam="section-heading text-uppercase">Services</h2>
-                        <h3 classNam="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <section id="services">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 text-center">
+                        <h2 className="section-heading text-uppercase">Services</h2>
+                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                         </div>
                     </div>
-                    <div classNam="row text-center">
+                    <div className="row text-center">
                         {
                             services.map((service, index) => {
                                 return <SingleService {...service} key={index} />
